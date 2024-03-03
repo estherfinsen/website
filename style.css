@@ -1,0 +1,1090 @@
+/******GÆLDER ALLE***********/
+/***** MENU******/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1%;
+  background-color: #fff;
+}
+
+#logo {
+  aspect-ratio: 800/843.85;
+  width: 8%;
+  align-items: center;
+  padding-left: 2%;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin-bottom: 1%;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  color: #ff5c00;
+  transition: color 0.3s;
+  font-family: "Dongle", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 3cqw;
+}
+
+.menu a:hover {
+  border: 0.2cqw solid #ff5c00;
+  border-radius: 2cqw;
+  box-shadow: 2% black;
+}
+
+.hoved {
+  flex-direction: column;
+}
+
+body {
+  background-color: #ff5c00;
+  margin: 0;
+}
+
+/*********FORSIDE***********/
+#tryk {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 95%;
+  left: 20%;
+  padding-top: 1%;
+  padding-right: 2%;
+  padding-left: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  z-index: 1000;
+  text-decoration: none;
+}
+#forside_grid {
+  background-color: white;
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 20%;
+  padding-right: 20%;
+  padding-left: 20%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+}
+#forsidebil {
+  grid-column: 1;
+}
+#forsidemand {
+  grid-column: 2;
+  width: 120%;
+}
+
+#for_over {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 130%;
+  left: -4%;
+  padding-left: 25%;
+  padding-right: 2%;
+  padding-top: 1%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+}
+#for_tekst {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 2cqw;
+  top: 148%;
+  margin-bottom: 5cqw;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+}
+/*********GRAFIK***********/
+#mogs {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 40%;
+  left: -4%;
+  padding-left: 10%;
+  padding-right: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+}
+#moodsty {
+  aspect-ratio: 1817/493;
+  width: 90%;
+  padding: 2%;
+  background-color: white;
+  position: absolute;
+  top: 60%;
+  padding-left: 6%;
+  padding-right: 4%;
+}
+
+#ms {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 122%;
+  left: -4%;
+  padding-left: 33%;
+  padding-right: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+}
+#mock {
+  aspect-ratio: 1817.85/460.39;
+  width: 90%;
+  padding: 2%;
+  background-color: white;
+  position: absolute;
+  top: 142%;
+  padding-left: 6%;
+  padding-right: 4%;
+}
+
+#logot {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 201%;
+  padding-left: 27.3%;
+  left: -4%;
+  padding-right: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+}
+#logotegn {
+  aspect-ratio: 1374.38/753.21;
+  width: 90%;
+  padding: 2%;
+  background-color: white;
+  position: absolute;
+  top: 221%;
+  padding-left: 6%;
+  padding-right: 4%;
+}
+
+#elementer {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 330%;
+  left: -4%;
+  padding-left: 19%;
+  padding-right: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+}
+#eletegn {
+  aspect-ratio: 1126.77/820;
+  width: 90%;
+  padding: 2%;
+  background-color: white;
+  position: absolute;
+  top: 350%;
+  padding-left: 6%;
+  padding-right: 4%;
+}
+
+#tegnman {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 486%;
+  left: -4%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+  padding-right: 2%;
+  padding-left: 26.8%;
+}
+#tegningman {
+  aspect-ratio: 589.11/705;
+  width: 90%;
+  padding: 2%;
+  background-color: white;
+  position: absolute;
+  top: 506%;
+  padding-left: 6%;
+  padding-right: 4%;
+}
+/*********ASSETS***********/
+#gode_ele {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 40%;
+  left: -4%;
+  padding-left: 21%;
+  padding-right: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+}
+#dor_ele {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 190%;
+  left: -4%;
+  padding-left: 15%;
+  padding-right: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+}
+#mand_ele {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 284%;
+  left: -4%;
+  padding-right: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+  padding-left: 34.5%;
+}
+#ur_ele {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 373%;
+  left: -4%;
+  padding-left: 40%;
+  padding-right: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+}
+#bag_ele {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 467%;
+  left: -4%;
+  padding-left: 35%;
+  padding-right: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+}
+#pom_ele {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 545%;
+  left: -4%;
+  padding-left: 35%;
+  padding-right: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+}
+#pom {
+  position: absolute;
+  top: 564%;
+  background-color: white;
+  width: 90%;
+  aspect-ratio: 1802.75/770.88;
+  padding: 5%;
+  justify-self: center;
+}
+
+#lyden {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 662%;
+  left: -4%;
+  padding-left: 40%;
+  padding-right: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+}
+#lyd {
+  position: absolute;
+  top: 680%;
+  background-color: white;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  margin-bottom: 20%;
+  width: 100%;
+}
+
+#assets_grid1 {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 59%;
+  align-items: center;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+}
+#tomat {
+  grid-column: 1;
+  width: 50%;
+  aspect-ratio: 878.17/288.34;
+  padding-left: 30%;
+}
+#salat {
+  grid-column: 2;
+  width: 50%;
+  aspect-ratio: 857.63/467.45;
+}
+
+#assets_grid2 {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 106%;
+  align-content: center;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+}
+#log {
+  grid-column: 1;
+  width: 50%;
+  aspect-ratio: 881.23/288.34;
+  padding-left: 30%;
+}
+#bof {
+  grid-column: 2;
+  width: 50%;
+  aspect-ratio: 880.1/252.6;
+  padding-top: 2%;
+}
+
+#assets_grid3 {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 143.5%;
+  align-content: center;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+}
+#overbol {
+  grid-column: 1;
+  width: 50%;
+  aspect-ratio: 880.1/414.37;
+  padding-left: 30%;
+}
+#underbol {
+  grid-column: 2;
+
+  width: 50%;
+  aspect-ratio: 880.5/314.31;
+  padding-top: 5%;
+}
+
+#assets_grid4 {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 209%;
+  align-content: center;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+}
+#lort {
+  grid-column: 1;
+  width: 50%;
+  aspect-ratio: 880.98/939.89;
+  padding-left: 30%;
+}
+#rotte {
+  grid-column: 2;
+  width: 50%;
+  aspect-ratio: 1507.85/381.14;
+  rotate: 270deg;
+  padding-right: 20%;
+  padding-bottom: 18%;
+}
+
+#assets_grid5 {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 303%;
+  align-content: center;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
+}
+#man {
+  grid-column: 1;
+  width: 70%;
+  aspect-ratio: 917.65/931.5;
+  padding-left: 12%;
+}
+#man2 {
+  grid-column: 2;
+  width: 75%;
+  aspect-ratio: 993.32/937.51;
+  padding-left: 12%;
+}
+#man3 {
+  grid-column: 3;
+  width: 60%;
+  aspect-ratio: 840.45/1009.45;
+}
+
+#assets_grid6 {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 392%;
+  align-content: center;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+}
+#ure {
+  grid-column: 1;
+  width: 50%;
+  aspect-ratio: 676/676;
+  padding-left: 30%;
+}
+#viser {
+  grid-column: 2;
+  width: 10%;
+  aspect-ratio: 166.81/876.92;
+  padding-left: 20%;
+}
+
+#assets_grid7 {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 486%;
+  align-content: center;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
+}
+#bag {
+  grid-column: 1;
+  width: 90%;
+  aspect-ratio: 1924.23/1101.56;
+  padding-left: 10%;
+}
+#vind {
+  grid-column: 2;
+  width: 90%;
+  aspect-ratio: 1926.64/1097.4;
+  padding-left: 6%;
+}
+#tab {
+  grid-column: 3;
+  width: 90%;
+  aspect-ratio: 1937.2/1102.47;
+}
+
+/*********TEKNIK***********/
+#teknikover {
+  position: absolute;
+  background-color: white;
+  color: #ff5c00;
+  font-family: "Dongle", sans-serif;
+  font-size: 5cqw;
+  top: 40%;
+  left: -4%;
+  padding-left: 10%;
+  padding-right: 2%;
+  border: 0.3cqw solid #ff5c00;
+  border-radius: 10cqw;
+  padding-top: 1%;
+}
+
+#state {
+  position: absolute;
+  top: 60%;
+  background: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 30%;
+  width: 80%;
+}
+/*********SPIL***********/
+/******SKÆRME og BAGGRUNDE******/
+#body {
+  background-color: white;
+}
+#screen {
+  width: 100%;
+  aspect-ratio: 16/9;
+  position: relative;
+  overflow: hidden;
+  container-type: inline-size;
+}
+#game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#start {
+  width: 40%;
+  position: absolute;
+  aspect-ratio: 827/868;
+  top: 15%;
+  left: 30%;
+  background-image: url(billeder/start.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#start_knap {
+  position: absolute;
+  top: 72%;
+  left: 25%;
+  width: 50%;
+  aspect-ratio: 1264.54/551.55;
+  cursor: pointer;
+  animation-name: puls_kf;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  background-image: url(billeder/startknap.svg);
+  background-size: cover;
+}
+@keyframes puls_kf {
+  100% {
+    scale: 1.2;
+  }
+}
+#game_over {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(billeder/taber.svg);
+  background-size: cover;
+}
+#genstart2 {
+  position: absolute;
+  top: 67%;
+  left: 38%;
+  width: 25%;
+  aspect-ratio: 1830.49/554.01;
+  cursor: pointer;
+  animation-name: puls_kf;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  background-image: url(billeder/prigen.svg);
+  background-size: cover;
+}
+#genstart {
+  position: absolute;
+  top: 67%;
+  left: 38%;
+  width: 25%;
+  aspect-ratio: 1830.49/554.01;
+  cursor: pointer;
+  animation-name: puls_kf;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  background-image: url(billeder/prigen.svg);
+  background-size: cover;
+}
+.hide {
+  display: none;
+}
+#level_complete {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(billeder/vinder.svg);
+  background-size: cover;
+  aspect-ratio: 1952.91/1101.16;
+}
+#pom1_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 613.48/907.15;
+  top: -50%;
+}
+#pom1_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/pom1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pom2_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 507.13/491.17;
+  top: -50%;
+}
+#pom2_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/pom2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pom3_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 187.38/836.91;
+  top: -50%;
+}
+#pom3_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/pom3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pom4_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 208.2/929.9;
+  top: -50%;
+}
+#pom4_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/pom4.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pom5_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 613.48/907.15;
+  top: -50%;
+}
+#pom5_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/pom5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pom6_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 308.8/828.59;
+  top: -50%;
+}
+#pom6_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/pom6.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pom7_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 407.35/764.73;
+  top: -50%;
+}
+#pom7_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/pom7.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#game_background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(billeder/baggrund.svg);
+  background-size: cover;
+  pointer-events: none;
+}
+
+/**** FORGRUNDEN*****/
+#game_element {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#game_foreground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  pointer-events: none;
+}
+
+/***** ELEMENTERNE*******/
+/***** GODE*****/
+/*tomat*/
+#tomat_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 878.17/288.34;
+  top: -50%;
+}
+#tomat_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/tomat.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/****log_ring*/
+#log_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 881.23/288.34;
+  top: -50%;
+}
+#log_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/log.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*overbolle*/
+#overbol_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 880.1/414.37;
+  top: -50%;
+}
+#overbol_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/overbol.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*underbolle*/
+#underbol_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 880.5/314.31;
+  top: -50%;
+}
+#underbol_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/underbol.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Bof*/
+#bof_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 880.1/252.6;
+  top: -50%;
+}
+#bof_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/bof.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*salat*/
+#salat_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 857.63/467.45;
+  top: -50%;
+}
+#salat_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/salat.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/******DÅRLIGE**/
+/*Lort*/
+#lort_container {
+  position: absolute;
+  width: 8%;
+  aspect-ratio: 880.98/939.89;
+  top: -50%;
+}
+#lort_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/lort.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform-origin: 10% 5%;
+}
+
+/*rotte*/
+#rotte_container {
+  position: absolute;
+  width: 12%;
+  aspect-ratio: 1507.85/381.14;
+  top: -50%;
+}
+#rotte_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/rotte.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform-origin: 10% 5%;
+}
+
+/**** POS OG DELAY ***/
+.pos1 {
+  left: 37%;
+}
+.pos2 {
+  left: 30%;
+}
+.pos3 {
+  left: 43%;
+}
+.pos4 {
+  left: 46%;
+}
+.pos5 {
+  left: 49%;
+}
+.pos6 {
+  left: 52%;
+}
+.pos7 {
+  left: 55%;
+}
+.pos8 {
+  left: 58%;
+}
+.pos9 {
+  left: 63%;
+}
+
+.poss1 {
+  left: 10%;
+}
+.poss2 {
+  left: 20%;
+}
+.poss3 {
+  left: 30%;
+}
+.poss4 {
+  left: 40%;
+}
+.poss5 {
+  left: 50%;
+}
+.poss6 {
+  left: 60%;
+}
+.poss7 {
+  left: 70%;
+}
+.poss8 {
+  left: 80%;
+}
+.poss9 {
+  left: 90%;
+}
+
+.delay1 {
+  animation-delay: 0s;
+}
+.delay2 {
+  animation-delay: 0.5s;
+}
+.delay3 {
+  animation-delay: 1s;
+}
+.delay4 {
+  animation-delay: 1.5s;
+}
+.delay5 {
+  animation-delay: 2s;
+}
+.delay6 {
+  animation-delay: 2.5s;
+}
+.delay7 {
+  animation-delay: 3s;
+}
+.delay8 {
+  animation-delay: 3.5s;
+}
+
+/******UI*****/
+#game_ui {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  pointer-events: none;
+}
+
+/****URET****/
+#timer {
+  width: 100%;
+  position: absolute;
+  left: 2%;
+  top: 5%;
+}
+#ur {
+  position: absolute;
+  width: 15%;
+  aspect-ratio: 1/1;
+  background-image: url(billeder/urskive.svg);
+  background-size: cover;
+}
+
+#minut_viser {
+  position: absolute;
+  top: 6.3%;
+  left: 46.1%;
+  width: 8%;
+  height: 45%;
+  transform-origin: bottom center;
+  background-image: url(billeder/gaffel_viser.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/*****POINT*****/
+#score_board {
+  position: absolute;
+  width: 20%;
+  top: 5%;
+  left: 75%;
+  background-size: cover;
+  border: 0.6cqw solid #ff5c00;
+  background-color: white;
+  border-radius: 2cqw;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  color: white;
+  font-family: "Dongle", sans-serif;
+  font-size: 4cqw;
+  margin: 0;
+  -webkit-text-stroke: 0.2cqw #ff5c00;
+}
+
+/***** LIV******/
+#life_board {
+  position: absolute;
+  width: 20%;
+  top: 22%;
+  left: 75%;
+  background-size: cover;
+  border: 0.6cqw solid #ff5c00;
+  background-color: white;
+  border-radius: 2cqw;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  color: white;
+  font-family: "Dongle", sans-serif;
+  font-size: 4cqw;
+  margin: 0;
+
+  -webkit-text-stroke: 0.2cqw #ff5c00;
+}

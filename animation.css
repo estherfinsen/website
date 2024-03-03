@@ -1,0 +1,61 @@
+/****ELEMENTER ANI******/
+
+.falling {
+  animation-name: falling_kf;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes falling_kf {
+  0% {
+    translate: 0 -100%;
+  }
+
+  100% {
+    translate: 0 5500%;
+  }
+}
+
+.zoom_in {
+  animation-name: zoom_in_kf;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes zoom_in_kf {
+  100% {
+    scale: 1200%;
+  }
+}
+
+.zoom_out {
+  animation-name: zoom_out_kf;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes zoom_out_kf {
+  100% {
+    scale: 0%;
+  }
+}
+
+.frys {
+  animation-play-state: paused;
+}
+
+/*****URET***/
+.minut_animation {
+  animation-name: min_kf;
+  animation-duration: 30s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes min_kf {
+  to {
+    transform: rotate(360deg);
+  }
+}

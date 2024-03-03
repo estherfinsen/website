@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1264.54 551.55">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .02em;
+      }
+
+      .cls-2 {
+        font-family: CooperBlack, 'Cooper Black';
+        font-size: 307.45px;
+        stroke-width: 23.86px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+        stroke: #eb672c;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-3 {
+        stroke-width: 12.04px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-3" x="6.02" y="6.02" width="1252.5" height="539.51" rx="269.76" ry="269.76"/>
+    <text class="cls-2" transform="translate(189.94 379.35)"><tspan x="0" y="0">P</tspan><tspan class="cls-1" x="210.32" y="0">L</tspan><tspan class="cls-4" x="409.69" y="0">A</tspan><tspan x="644.33" y="0">Y</tspan></text>
+  </g>
+</svg>

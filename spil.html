@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spil</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body id="body">
+    <header class="hoved">
+        <div id="logo">
+            <a href="spil.html"><img src="billeder/burglogo.svg" alt="burglogo"></a>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a id="sider" href="index.html">FORSIDE</a></li>
+                <li><a id="sider2" href="grafik.html">GRAFIK</a></li>
+                <li><a id="sider3" href="assets.html">ASSETS</a></li>
+                <li><a id="sider4" href="teknik.html">TEKNIK</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="screen">
+            <div id="game">
+                <div id="game_background">
+                </div>
+                <div id="game_element">
+                    <div id="rotte_container" class="">
+                        <div id="rotte_sprite">
+                        </div>
+                    </div>
+
+                    <div id="lort_container">
+                        <div id="lort_sprite">
+                        </div>
+                    </div>
+
+                    <div id="salat_container" class="">
+                        <div id="salat_sprite">
+                        </div>
+                    </div>
+
+                    <div id="bof_container">
+                        <div id="bof_sprite">
+                        </div>
+                    </div>
+
+                    <div id="tomat_container">
+                        <div id="tomat_sprite">
+                        </div>
+                    </div>
+
+                    <div id="log_container">
+                        <div id="log_sprite">
+                        </div>
+                    </div>
+
+                    <div id="overbol_container">
+                        <div id="overbol_sprite">
+                        </div>
+                    </div>
+
+                    <div id="underbol_container">
+                        <div id="underbol_sprite">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="game_foreground">
+
+                </div>
+
+
+                <div id="game_ui">
+
+                    <div id="score_board">
+
+                    </div>
+
+                    <div id="life_board">
+
+                    </div>
+
+
+
+                    <div id="timer">
+                        <div id="ur">
+                            <div id="minut_viser" class=""></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div id="start" class="hide">
+                <div id="start_knap"></div>
+            </div>
+
+
+            <div id="game_over" class="">
+                <div id="genstart"></div>
+            </div>
+
+
+
+            <div id="level_complete">
+                <div id="genstart2"></div>
+                <div id="pom1_container">
+                    <div id="pom1_sprite"></div>
+                </div>
+                <div id="pom2_container">
+                    <div id="pom2_sprite"></div>
+                </div>
+                <div id="pom3_container">
+                    <div id="pom3_sprite"></div>
+                </div>
+                <div id="pom4_container">
+                    <div id="pom4_sprite"></div>
+                </div>
+                <div id="pom5_container">
+                    <div id="pom5_sprite"></div>
+                </div>
+                <div id="pom6_container">
+                    <div id="pom6_sprite"></div>
+                </div>
+                <div id="pom7_container">
+                    <div id="pom7_sprite"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+    <div id="lyde">
+        <audio src="lyde/Mmmhh.mp3" id="mmmhh"></audio>
+        <audio src="lyde/Ad.mp3" id="ad"></audio>
+        <audio src="lyde/Vundet.mp3" id="vundet"></audio>
+        <audio src="lyde/Opkast.mp3" id="opkast"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
